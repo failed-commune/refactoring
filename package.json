@@ -2,12 +2,13 @@
   "name": "refactoring",
   "version": "1.0.0",
   "description": "following refactoring",
+  "type": "module",
   "main": "index.js",
   "repository": "https://github.com/failed-commune/refactoring.git",
   "author": "failed-commune <w.hanseul@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "devDependencies": {
     "jest": "^27.0.6"
